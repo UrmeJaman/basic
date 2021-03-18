@@ -51,6 +51,9 @@ Removing Branch
 -git branch -d branchname(local)
 -git push origin --delete remoteBranchName(remote)
 
+Removing last pushed commit
+-git revert id
+
 Keep a flag 
 - git stash
 -git stash push/apply
