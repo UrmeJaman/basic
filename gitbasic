@@ -1,2 +1,25 @@
-*git init 
+To start git 
+
+- git init 
+
+
+Add files to git staging 
+- git add filename (addes only the file )
+-git add --all (addes all files)
+-git add . (addes all)
+
+To Commit something 
+- git commit -m "messages"
+
+
+To see all command 
+- git log 
+-git log --oneline (shows in oneline)
+
+To see user config details on git 
+- git config --list 
+
+To see the difference between commits 
+- git diff (present to previous)
+-gitdiff id 
 
