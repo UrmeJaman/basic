@@ -1,0 +1,15 @@
+1.cloning from  public repo 
+-
+git clone http link or ssh link
+
+2. cd to working folder
+
+3.laravel composer install if composer.json missing 
+
+-
+composer require "laravel/installer"
+
+4. installing composer 
+-composer install
+
+
