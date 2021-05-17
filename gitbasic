@@ -1,2 +1,68 @@
-*git init 
+To start git 
+
+- git init 
+
+
+Add files to git staging 
+- git add filename (addes only the file )
+-git add --all (addes all files)
+-git add . (addes all)
+
+To Commit something 
+- git commit -m "messages"
+
+
+To see all command 
+- git log 
+-git log --oneline (shows in oneline)
+
+To see user config details on git 
+- git config --list 
+
+To see the difference between commits 
+- git diff (shows what has been added but not commited)
+-gitdiff id 
+--git diff head  (present to previous)
+
+To github repository
+- git remote add origin https://github.com/UrmeJaman/reponame.git
+- git branch -M main
+-git push -u origin main
+
+Branching 
+-git branch branchname
+
+change branch 
+-git checkout branchname 
+- git checkout -b branchname (create+change to it)
+
+push to git repo 
+- git push 
+- git push --set-upstream origin branchname( to different branch )
+
+
+Remove file from git 
+-git rm filename
+
+-git clean -f  (delete)
+-git clean -g -n (give an allert)
+
+Removing Branch 
+-git branch -d branchname(local)
+-git push origin --delete remoteBranchName(remote)
+
+Removing last pushed commit
+-git revert id
+
+Keep a flag 
+- git stash
+-git stash push/apply
+-git stash pop
+
+Remote to local 
+-git clone/git pull
+-git fetch
+
+Add all branch to main 
+-git merge 
 
